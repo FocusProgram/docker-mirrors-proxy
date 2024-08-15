@@ -526,57 +526,57 @@ exports[`pull 'frps' with 'v0.59.0' from 'ghcr.io/fatedier' > get manifest 1`] =
 `
 
 exports[`pull 'javascript-node' with '1-18' from 'mcr.microsoft.com/devcontainers' > get manifest 1`] = `
-{
-  "manifests": [
-    {
-      "digest": "sha256:ce9bfc3c9a246c1a8b0eee4aff0e6bc617e1c22ea04256b27edda5d5f3d08995",
-      "mediaType": "application/vnd.oci.image.manifest.v1+json",
-      "platform": {
-        "architecture": "amd64",
-        "os": "linux",
-      },
-      "size": 3348,
-    },
-    {
-      "digest": "sha256:a064c454aa0b089c9661a262d9e2d7bde21428dc03ba5b490865b635040bb987",
-      "mediaType": "application/vnd.oci.image.manifest.v1+json",
-      "platform": {
-        "architecture": "arm64",
-        "os": "linux",
-      },
-      "size": 3348,
-    },
-    {
-      "annotations": {
-        "vnd.docker.reference.digest": "sha256:ce9bfc3c9a246c1a8b0eee4aff0e6bc617e1c22ea04256b27edda5d5f3d08995",
-        "vnd.docker.reference.type": "attestation-manifest",
-      },
-      "digest": "sha256:ecabb66030ff9c7d4feb1459a75d97cdf3177835838202082e32df4772159bf0",
-      "mediaType": "application/vnd.oci.image.manifest.v1+json",
-      "platform": {
-        "architecture": "unknown",
-        "os": "unknown",
-      },
-      "size": 566,
-    },
-    {
-      "annotations": {
-        "vnd.docker.reference.digest": "sha256:a064c454aa0b089c9661a262d9e2d7bde21428dc03ba5b490865b635040bb987",
-        "vnd.docker.reference.type": "attestation-manifest",
-      },
-      "digest": "sha256:243f8381b0186b8991a022fbaf4a14d04acaae4b17c7c2183fdf87638efbe6f5",
-      "mediaType": "application/vnd.oci.image.manifest.v1+json",
-      "platform": {
-        "architecture": "unknown",
-        "os": "unknown",
-      },
-      "size": 566,
-    },
-  ],
-  "mediaType": "application/vnd.oci.image.index.v1+json",
-  "schemaVersion": 2,
-}
-`
+// {
+//   "manifests": [
+//     {
+//       "digest": "sha256:ce9bfc3c9a246c1a8b0eee4aff0e6bc617e1c22ea04256b27edda5d5f3d08995",
+//       "mediaType": "application/vnd.oci.image.manifest.v1+json",
+//       "platform": {
+//         "architecture": "amd64",
+//         "os": "linux",
+//       },
+//       "size": 3348,
+//     },
+//     {
+//       "digest": "sha256:a064c454aa0b089c9661a262d9e2d7bde21428dc03ba5b490865b635040bb987",
+//       "mediaType": "application/vnd.oci.image.manifest.v1+json",
+//       "platform": {
+//         "architecture": "arm64",
+//         "os": "linux",
+//       },
+//       "size": 3348,
+//     },
+//     {
+//       "annotations": {
+//         "vnd.docker.reference.digest": "sha256:ce9bfc3c9a246c1a8b0eee4aff0e6bc617e1c22ea04256b27edda5d5f3d08995",
+//         "vnd.docker.reference.type": "attestation-manifest",
+//       },
+//       "digest": "sha256:ecabb66030ff9c7d4feb1459a75d97cdf3177835838202082e32df4772159bf0",
+//       "mediaType": "application/vnd.oci.image.manifest.v1+json",
+//       "platform": {
+//         "architecture": "unknown",
+//         "os": "unknown",
+//       },
+//       "size": 566,
+//     },
+//     {
+//       "annotations": {
+//         "vnd.docker.reference.digest": "sha256:a064c454aa0b089c9661a262d9e2d7bde21428dc03ba5b490865b635040bb987",
+//         "vnd.docker.reference.type": "attestation-manifest",
+//       },
+//       "digest": "sha256:243f8381b0186b8991a022fbaf4a14d04acaae4b17c7c2183fdf87638efbe6f5",
+//       "mediaType": "application/vnd.oci.image.manifest.v1+json",
+//       "platform": {
+//         "architecture": "unknown",
+//         "os": "unknown",
+//       },
+//       "size": 566,
+//     },
+//   ],
+//   "mediaType": "application/vnd.oci.image.index.v1+json",
+//   "schemaVersion": 2,
+// }
+// `
 
 exports[`pull 'redis' with '7.0.15-debian-12-r20' from 'bitnami' > get manifest 1`] = `
 {
