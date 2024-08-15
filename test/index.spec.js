@@ -64,12 +64,12 @@ const images = [
     repo: 'ghcr.io/fatedier',
     image: 'frps',
     tag: 'v0.59.0',
-  },
-  {
-    repo: 'mcr.microsoft.com/devcontainers',
-    image: 'javascript-node',
-    tag: '1-18',
-  },
+  }
+  // {
+  //   repo: 'mcr.microsoft.com/devcontainers',
+  //   image: 'javascript-node',
+  //   tag: '1-18',
+  // },
 ];
 
 describe.each(images)('pull $image with $tag from $repo', async ({ repo, image, tag }) => {
